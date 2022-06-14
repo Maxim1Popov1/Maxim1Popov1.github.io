@@ -7,5 +7,3 @@ const human = {
     narrowEyes: undefined,
     duelist: true,
 }
-
-console.log(human.firstname)
