@@ -8,4 +8,5 @@ const human = {
     duelist: true,
 }
 
+//jksdfkjsfksdfd
 console.log(human.firstname)
