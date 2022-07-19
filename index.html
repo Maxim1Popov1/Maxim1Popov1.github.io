@@ -5,37 +5,34 @@
             </head>
     <body>
         <div><h2 align="center">Анкета</h2></div>
-    <div class="container"><p>
-        <div align="left"><input type="text" placeholder="Имя" name="name">
+        
+    <fieldset><div class="container"><p>
+        <div align="left"><input type="text" placeholder="Имя" name="name" required>
         </div></p>
 
-        <p><div align="left"><input type="text" placeholder="Фамилия" name="name">
+        <p><div align="left"><input type="text" placeholder="Фамилия" name="name" required>
             </div></p>
 
-            <p><div align="left"><input type="text" placeholder="Отчество" name="name">
+            <p><div align="left"><input type="text" placeholder="Отчество" name="name" required>
                 </div></p>
-    </div>
+        </div></fieldset>
 
-        <div align="left"><label>
+        <fieldset><label>
             <p>Дата рождения:
-            <input type="date" name="my-date" min="2022-07-14"></p>
-        </label></div>
-        
-        <div align="left"><label>
-            <p>E-mail:
-            <input type="email" multiple value="Активная почта для связи"></p>
-        </label>
-        </div>
-        
-        <div align="left"><label>
-            <p> Пол:
-                <label><input type="radio" name="Sex" value="Man" checked> Мужской</label>
-                <label><input type="radio" name="Sex" value="Woman"> Женский</label>
-            </p>
-        </label>
-        </div>
+            <input type="date" name="my-date" min="2022-07-14" required></p>
+            </label></fieldset>
 
-        <div align="left"><label>
+    <fieldset><label>
+            <p>E-mail:
+            <input type="email" multiple value="Активная почта для связи" required></p>
+        </label></fieldset>
+        
+   <label> <fieldset>
+            <p> Пол:
+    <label><input type="radio" name="Sex" value="Man" checked required> Мужской</label>
+    <label><input type="radio" name="Sex" value="Woman" required> Женский</label></p>></label></fieldset
+       <label><fieldset>
+
         <p>Где ты живешь ?</p>
         <ol>
             <li><input type="checkbox" name="city" value="city1" >Москва</li>
@@ -44,8 +41,9 @@
             <li><input type="checkbox" name="city" value="city4">Мурманск</li>
             <li><input type="checkbox" name="city" value="city5">Иркутск</li>
         </ol> 
-            </label>
-        </div>
+         </label></fieldset>
+         <fieldset>
+            <button type="submit">Отправить</button>
+        </fieldset>
     </body>
-
 </html>
