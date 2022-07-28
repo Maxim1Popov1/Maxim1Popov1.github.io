@@ -1,0 +1,14 @@
+.container {
+    width: 1140px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.title {
+    color: #252525;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+}
