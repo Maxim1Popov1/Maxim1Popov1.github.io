@@ -35,6 +35,13 @@
     height: 71px;
     margin: 0 auto;
 }
+.dawn {
+    position: absolute;
+width: 29.99px;
+height: 18.99px;
+left: 557px;
+top: 722px;
+}
 
 .logo-text {
     font-weight: 500;
