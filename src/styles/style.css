@@ -20,6 +20,7 @@
 }
 
 .header {
+    width: 1920px;
     height: 800px;
     background: center / cover no-repeat   url(../public/img/bg.png);
 }
@@ -43,4 +44,42 @@
     text-align: center;
     text-transform: uppercase;
     margin-top: 17px;
+}
+
+.line-left {
+    position: absolute;
+    width: 292px;
+    height: 2px;
+    left: 0px;
+    top: 282px;
+
+background: #FFFFFF;
+}
+
+.line-right {
+    position: absolute;
+width: 292px;
+height: 2px;
+left: 841px;
+top: 282px;
+
+background: #FFFFFF;
+}
+
+.text-centr {
+    position: absolute;
+    width: 1144px;
+    height: 77px;
+    left: 3px;
+    top: 402px;
+    
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
 }
