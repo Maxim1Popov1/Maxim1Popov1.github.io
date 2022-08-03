@@ -73,7 +73,28 @@ top: 282px;
 background: #FFFFFF;
 }
 
-.text-centr {
+.text-izi {
+    position: absolute;
+
+height: 50px;
+left: 295px;
+top: 259px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 80px;
+line-height: 80px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.text-everyday {
     position: absolute;
     width: 1144px;
     height: 77px;
@@ -83,10 +104,74 @@ background: #FFFFFF;
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
-    
-    display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
+
+}
+
+.text-up{
+position: absolute;
+width: 100%;
+height: 41px;
+left: 171px;
+top: 197.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 41px;
+line-height: 41px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #F9BF3B;
+}
+
+.text-dawn-centr{
+    position: absolute;
+width: 100%;
+height: 41px;
+left: 122px;
+top: 338.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 41px;
+line-height: 41px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #F9BF3B;
+
+}
+
+.text-dawn{
+    position: absolute;
+width: 100%;
+height: 24px;
+left: 448px;
+top: 693.5px;
+
+
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
