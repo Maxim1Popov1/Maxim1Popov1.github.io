@@ -1,11 +1,14 @@
 .body {
+    width: 100vw;
+    height: 100vh;
     font-family: "Roboto";
     font-style: normal;
+
 }
 
 .container {
-    width: 1140px;
-    height: 3710px;
+    max-width: 1140px;
+    max-height: 3710px;
     position: relative;
     margin: 0 auto;
     padding: 39px 0 61px 0;
@@ -20,7 +23,7 @@
 }
 
 .header {
-    width: 1920px;
+    max-width: 1920px;
     height: 800px;
     background: center / cover no-repeat   url(../public/img/bg.png);
 }
@@ -112,7 +115,7 @@ color: #FFFFFF;
 
 .text-up{
 position: absolute;
-width: 100%;
+width:100%;
 height: 41px;
 left: 171px;
 top: 197.5px;
@@ -206,7 +209,7 @@ color: #F9BF3B;
     width: 582px;
     height: 23px;
     left: 671px;
-    top: 88px;
+    top: 160px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -328,11 +331,117 @@ color: #4A4A4A;
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
-    
-    
-    
     align-items: center;
     text-align: center;
     
     color: #4A4A4A;
+  }
+
+  .optimaze {
+    position: absolute;
+    width: 1379px;
+    height: 502px;
+    left: 150px;
+    top: 1452px;
+
+  }
+
+  .w_bg {
+    position: absolute;
+    width: 868px;
+    height: 502px;
+    left: 0px;
+    top: 0px;
+
+  }
+  .text2-s1 {
+    position: absolute;
+    width: 773px;
+    height: 30px;
+    left: 631px;
+    top: 61px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #299CBD;
+  }
+
+  .text2-s2{
+    position: absolute;
+width: 750px;
+height: 312px;
+left: 629px;
+top: 116px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 27px;
+
+
+display: flex;
+align-items: center;
+
+color: #4A4A4A;
+
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .header {
+        min-height: 300px;
+        background-size: contain;
+    }
+    .header .text-up {
+        margin: 0;
+        font-size: 20px;
+        width: 100%;
+        left: 0;
+        display:inline-block
+    }
+
+    .header .logo-wrapper {
+        display: none;
+    }
+    .header .text-izi {
+        width: 100%;
+        font-size: 50px;
+        left: 0;
+    }
+    .header .text-dawn-centr {
+        font-size: 25px;
+        width: 100%;
+        left: 0;
+        display:inline-block
+    }
+    .header  .text-everyday {
+        width: 100%;
+        font-size: 15px;
+    }
+    .header .text-dawn {
+        display: none;
+    }
+    .headet .dawn {
+        display: none; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header {
+        background-size: contain;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .header {
+        background-size: contain;
+    }
   }
